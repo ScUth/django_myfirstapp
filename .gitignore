@@ -1,1 +1,28 @@
-myvenv
+# Python
+__pycache__/
+*.py[cod]
+
+# Virtual environment
+myvenv/
+venv/
+env/
+.venv/
+
+# Django
+db.sqlite3
+*.log
+media/
+staticfiles/
+
+# IDE/editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# History
+.bash_history
